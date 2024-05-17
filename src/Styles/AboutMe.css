@@ -1,0 +1,53 @@
+.about-me {
+  margin-top: 3.5rem;
+  /* padding: 0 10rem; */
+  height: calc(100vh - 3.5rem);
+  background-color: #edf6f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.marc-photo {
+  height: 30rem;
+  width: 23rem;
+  background-color: #4da1a8;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+.about-me-container {
+  width: 50rem;
+  /* height: 25rem; */
+  padding: 1rem;
+  /* background-color: #4da1a8; */
+}
+
+.position {
+  height: 3rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgba(39, 39, 39, 0.289);
+}
+
+.skills-container {
+  height: 4rem;
+  background-color: #c8e2e6;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  padding: 0.33rem;
+}
+
+.skill {
+  height: 3.3rem;
+  width: 3.3rem;
+  background-color: #4da1a8;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-right: 1rem;
+}

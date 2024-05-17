@@ -1,0 +1,96 @@
+.contact {
+  height: 85vh;
+  background-color: #edf6f9;
+  padding: 3.5rem 0rem;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.contact-description {
+  position: relative;
+  padding: 3rem;
+  background-color: #4da1a8;
+  height: 25rem;
+}
+
+.contact-description h2,
+.contact-description p {
+  text-align: center;
+}
+
+.contact-form {
+  position: absolute;
+  width: 25rem;
+  min-height: 20rem;
+  background-color: #edf6f9;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
+}
+
+.input-container {
+  margin-bottom: 0.5rem;
+}
+
+.send-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #4da1a8;
+  width: 5rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-family: "Lexend", sans-serif;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+}
+
+.social-container {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.social {
+  /* border: 2px solid black; */
+  background-position: center;
+  background-size: cover;
+  margin-right: 3rem;
+}
+
+.fb {
+  background-image: url("../assets/facebook.png");
+  background-color: #edf6f9;
+}
+
+.linkedin {
+  background-image: url("../assets/linkedin.png");
+}
+
+.github {
+  background-image: url("../assets/github.png");
+  margin-right: 0;
+}
+
+#email,
+#subject,
+#message {
+  background-color: #4da1a8;
+  border: none;
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#message {
+  resize: none;
+  height: 6rem;
+}
