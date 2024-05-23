@@ -29,10 +29,12 @@
 
 .project-preview {
   height: 15rem;
-  width: 23rem;
-  border-radius: 1rem;
+  width: 30rem;
+  border-radius: 0.5rem;
   background-color: #4da1a8;
   border: 2px solid black;
+  background-size: cover;
+  background-position: center;
 }
 
 .project-info-header {
@@ -50,6 +52,18 @@
   border-bottom: 1px solid rgba(39, 39, 39, 0.289);
   padding-bottom: 0.7rem;
   margin-bottom: 0.7rem;
+}
+
+.dos {
+  background-image: url("../assets/dos.png");
+}
+
+.pris {
+  background-image: url("../assets/pris.png");
+}
+
+.senjo {
+  background-image: url("../assets/senjo.png");
 }
 
 .chip {

@@ -26,10 +26,10 @@ function Projects(props) {
               <span className="chip green">MongoDB</span>
             </div>
           </div>
-          <div className="project-preview"></div>
+          <div className="project-preview dos"></div>
         </div>
         <div className="project-container">
-          <div className="project-preview"></div>
+          <div className="project-preview pris"></div>
           <div className="project-info">
             <h3>PRIS</h3>
             <p className="project-contributor">
@@ -68,7 +68,7 @@ function Projects(props) {
               <span className="chip cyan">Google Cloud API</span>
             </div>
           </div>
-          <div className="project-preview"></div>
+          <div className="project-preview senjo"></div>
         </div>
       </div>
     </div>

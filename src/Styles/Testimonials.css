@@ -1,7 +1,7 @@
 .testimonials {
-  min-height: 88vh;
+  min-height: 50vh;
   background-color: #edf6f9;
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 
 .testimonial-header {
@@ -68,9 +68,9 @@
 }
 
 @media (max-width: 1325px) {
-  /* .testimonials {
-    min-height: 100vh;
-  } */
+  .testimonials {
+    padding-bottom: 0;
+  }
 
   .testimonial-container {
     flex-direction: column;

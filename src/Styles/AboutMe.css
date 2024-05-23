@@ -20,6 +20,9 @@
   background-color: #4da1a8;
   border: 2px solid black;
   border-radius: 1rem;
+  background-image: url("../assets/marc.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .about-me-container {
@@ -36,20 +39,43 @@
 }
 
 .skills-container {
-  height: 4rem;
-  background-color: #c8e2e6;
   margin-top: 3rem;
   border-radius: 0.5rem;
-  padding: 0.33rem;
 }
 
 .skill {
   height: 3.3rem;
   width: 3.3rem;
-  background-color: #4da1a8;
+  /* background-color: #4da1a8; */
   border-radius: 0.5rem;
   display: inline-block;
   margin-right: 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.html {
+  background-image: url("../assets/html.png");
+}
+
+.css {
+  background-image: url("../assets/css.png");
+}
+
+.js {
+  background-image: url("../assets/js.png");
+}
+
+.react {
+  background-image: url("../assets/react.png");
+}
+
+.node {
+  background-image: url("../assets/node.png");
+}
+
+.mysql {
+  background-image: url("../assets/mysql.png");
 }
 
 @media (max-width: 1225px) {
@@ -72,6 +98,10 @@
 
   .position {
     width: 100%;
+    text-align: center;
+  }
+
+  .center-text {
     text-align: center;
   }
 }
