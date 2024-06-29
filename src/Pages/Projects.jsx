@@ -26,10 +26,14 @@ function Projects(props) {
               <span className="chip green">MongoDB</span>
             </div>
           </div>
-          <div className="project-preview dos"></div>
+          <a href="https://dosshs.online/" target="_blank">
+            <div className="project-preview dos"></div>
+          </a>
         </div>
         <div className="project-container">
-          <div className="project-preview pris"></div>
+          <a href="https://pris.dosshs.online/" target="_blank">
+            <div className="project-preview pris"></div>
+          </a>
           <div className="project-info">
             <h3>PRIS</h3>
             <p className="project-contributor">
@@ -68,7 +72,9 @@ function Projects(props) {
               <span className="chip cyan">Google Cloud API</span>
             </div>
           </div>
-          <div className="project-preview senjo"></div>
+          <a href="https://senjomap.netlify.app/" target="_blank">
+            <div className="project-preview senjo"></div>
+          </a>
         </div>
       </div>
     </div>

@@ -98,6 +98,10 @@
   background-color: #ffc2d1;
 }
 
+.project-container a {
+  cursor: pointer;
+}
+
 @media (max-width: 1225px) {
   .projects {
     padding-bottom: 1rem;
