@@ -9,7 +9,7 @@ function AboutMe() {
           <h1>MARC LOWEL CASTILLO</h1>
           <p className="highlighted-p position">{"<Front End Developer/>"}</p>
           <p className="center-text">
-            I'm a 17-year-old student at the Polytechnic University of the
+            I'm an 18-year-old student at the Polytechnic University of the
             Philippines with a passion for both gaming and coding. Balancing my
             academic pursuits with my love for technology, I find joy in
             creating and problem-solving, whether it's through developing
